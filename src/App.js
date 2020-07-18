@@ -21,7 +21,7 @@ function App() {
     const consultarAPI = async () => {
       if (consultar) {
         const appId = 'c0bc6e680df201af456c8b064eaf7ab8';
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`
         const response = await fetch(url);
         const resultado = await response.json();
         setResultado(resultado);
