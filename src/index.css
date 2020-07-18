@@ -4,7 +4,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Josefin Sans', cursive;
-  background-image: url("https://pixabay.com/get/53e2d0464950aa14f6d1867dda35367b1c3adee15554774f_1920.jpg");
+  background-image: url("../src/assets/img/background.png");
+  background-size: auto;
 }
 nav .brand-logo {
   display: block;
