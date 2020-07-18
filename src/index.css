@@ -131,3 +131,14 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
     height: 60px; 
   }
 }
+@media screen and ( min-width: 1440px ) {
+  .icon { 
+    width: 60px; 
+    height: 60px; 
+    margin-left: 29rem;
+  }
+  .img{
+    width: 60px; 
+    height: 60px; 
+  }
+}
