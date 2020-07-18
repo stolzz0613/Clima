@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Clima/static/css/main.3c3842dd.chunk.css",
-    "main.js": "/Clima/static/js/main.9fd0059f.chunk.js",
-    "main.js.map": "/Clima/static/js/main.9fd0059f.chunk.js.map",
+    "main.js": "/Clima/static/js/main.64761d5c.chunk.js",
+    "main.js.map": "/Clima/static/js/main.64761d5c.chunk.js.map",
     "runtime-main.js": "/Clima/static/js/runtime-main.947975a4.js",
     "runtime-main.js.map": "/Clima/static/js/runtime-main.947975a4.js.map",
     "static/js/2.5adef9fc.chunk.js": "/Clima/static/js/2.5adef9fc.chunk.js",
     "static/js/2.5adef9fc.chunk.js.map": "/Clima/static/js/2.5adef9fc.chunk.js.map",
     "index.html": "/Clima/index.html",
-    "precache-manifest.3fab46dce96af687f2b1057760014f1d.js": "/Clima/precache-manifest.3fab46dce96af687f2b1057760014f1d.js",
+    "precache-manifest.5f7144c49cab521c07bde2408371bce3.js": "/Clima/precache-manifest.5f7144c49cab521c07bde2408371bce3.js",
     "service-worker.js": "/Clima/service-worker.js",
     "static/css/main.3c3842dd.chunk.css.map": "/Clima/static/css/main.3c3842dd.chunk.css.map",
     "static/js/2.5adef9fc.chunk.js.LICENSE.txt": "/Clima/static/js/2.5adef9fc.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.947975a4.js",
     "static/js/2.5adef9fc.chunk.js",
     "static/css/main.3c3842dd.chunk.css",
-    "static/js/main.9fd0059f.chunk.js"
+    "static/js/main.64761d5c.chunk.js"
   ]
 }
