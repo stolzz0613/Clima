@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background-color: #03a9f4;
+  font-family: 'Josefin Sans', cursive;
+  background-image: url("https://pixabay.com/get/53e2d0464950aa14f6d1867dda35367b1c3adee15554774f_1920.jpg");
 }
 nav .brand-logo {
   display: block;
@@ -11,6 +13,7 @@ nav .brand-logo {
 }
 .input-field label {
   color: white;
+  font-size: 20px;
 }
 
 .input-field input[type=text]:focus + label {
@@ -20,11 +23,13 @@ nav .brand-logo {
 .input-field input[type=text]:focus {
   border-bottom: 1px solid white;
   box-shadow: 0 1px 0 0 #000;
+  margin-bottom: 30px;
 }
 
 input[type=text]:not(.browser-default) {
   border-bottom: 1px solid white;
   color: white;
+  margin-bottom: 30px;
 }
 input[type=text]:not(.browser-default):focus:not([readonly]) {
   border-bottom: 1px solid white;
@@ -37,7 +42,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
 
 .contenedor-form {
   padding: 3rem 0 1px 0;
-  background-color: #03a9f4;
+  margin-top: 5%;
 }
 .mensaje {
   text-align: center;
@@ -61,6 +66,9 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   text-align: center;
   font-size: 1.4rem;
 }
+.card-panel{
+  background-color: rgba(0, 0, 0, 0.2);
+}
 .temperatura {
   font-size: 4rem!important
 }
@@ -82,9 +90,9 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   width: 100px;
   height: 100px;
   border-radius: 150px;
-  background-color: #03a9f4;
   margin-left: 28rem;
   margin-top: -1rem;
+  background-color: rgba(0, 0, 0, 0.4);
   position: absolute;
 }
 @media screen and ( max-width: 320px ) {
@@ -130,6 +138,9 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
     width: 60px; 
     height: 60px; 
   }
+  .body{
+    background-size: cover;
+  }
 }
 @media screen and ( min-width: 1440px ) {
   .icon { 
@@ -141,4 +152,9 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
     width: 100px; 
     height: 100px; 
   }
+}
+.header{
+  font-size: 40px;
+  color:white;
+  font-family: 'Satisfy', cursive;
 }

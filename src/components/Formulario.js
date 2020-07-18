@@ -31,7 +31,7 @@ const Formulario = ({ busqueda, setBusqueda, setConsultar }) => {
             onSubmit={handleSubmit}
         >
             {error ? <Error mensaje="Ambos campos son obligatorios" /> : null}
-            <div className="input-field col s12">
+            <div className="input-field col s12" >
                 <input
                     type="text"
                     name="ciudad"
@@ -40,34 +40,34 @@ const Formulario = ({ busqueda, setBusqueda, setConsultar }) => {
                     onChange={handleChange}
                 />
                 <label htmlFor="ciudad">Ciudad: </label>
-
-                <div className="input-field col s12">
-                    <select
-                        name="pais"
-                        id="pais"
-                        value={pais}
-                        onChange={handleChange}
-                    >
-                        <option value="">--Seleccione un país--</option>
-                        <option value="US">Estados Unidos</option>
-                        <option value="MX">México</option>
-                        <option value="AR">Argentina</option>
-                        <option value="CO">Colombia</option>
-                        <option value="CR">Costa Rica</option>
-                        <option value="ES">España</option>
-                        <option value="PE">Perú</option>
-                    </select>
-                    <label htmlFor="pais">País: </label>
-                </div>
             </div>
+            <div className="input-field col s12">
+                <select
+                    name="pais"
+                    id="pais"
+                    value={pais}
+                    onChange={handleChange}
+                >
+                    <option value="">--Seleccione un país--</option>
+                    <option value="US">Estados Unidos</option>
+                    <option value="MX">México</option>
+                    <option value="AR">Argentina</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="ES">España</option>
+                    <option value="PE">Perú</option>
+                </select>
+                <label htmlFor="pais" style={{ marginTop: -10 }}>País: </label>
+            </div>
+
 
             <div className="input-field col s12">
                 <button
                     type="submit"
-                    className="waves-effect waves-light btn-large btn-block yellow accent-4  col s12"
+                    className="waves-effect waves-light btn-large btn-block orange lighten-3  col s12"
                 >Buscar Clima</button>
             </div>
-        </form>
+        </form >
     );
 }
 

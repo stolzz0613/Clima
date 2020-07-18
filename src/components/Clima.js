@@ -9,11 +9,11 @@ const Clima = ({ resultado }) => {
     const url = `http://openweathermap.org/img/wn/${code}@2x.png`
 
     return (
-        <div className="card-panel white col s12">
+        <div className="card-panel z-depth-4  col s12">
             <div className=" z-depth-4 icon ">
                 <img className="img" src={url} alt="icon" />
             </div>
-            <div className="black-text">
+            <div className="white-text">
                 <h2 className="left-align">{name}:</h2>
                 <p className="temperatura">
                     {parseFloat(main.temp - 273.15, 10).toFixed(2)}

@@ -3,11 +3,11 @@ import PropTypes from "prop-types";
 
 const Header = ({ titulo }) => {
     return (
-        <nav>
-            <div className="nav-wrapper light-blue darken-2">
-                <a href='#!' className="brand-logo">{titulo}</a>
-            </div >
-        </nav>
+
+        <div className="center-align" style={{ marginTop: 20}}>
+            <a href='#!' className="header brand-logo ">{titulo}</a>
+        </div >
+
     );
 }
 
