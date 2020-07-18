@@ -87,11 +87,44 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   margin-top: -1rem;
   position: absolute;
 }
-@media screen and ( max-width: 700px ) {
+@media screen and ( max-width: 320px ) {
   .icon { 
     width: 60px; 
     height: 60px; 
     margin-left: 15rem;
+  }
+  .img{
+    width: 60px; 
+    height: 60px; 
+  }
+}
+@media screen and ( min-width: 375px ) {
+  .icon { 
+    width: 60px; 
+    height: 60px; 
+    margin-left: 19rem;
+  }
+  .img{
+    width: 60px; 
+    height: 60px; 
+  }
+}
+@media screen and ( min-width: 425px ) {
+  .icon { 
+    width: 60px; 
+    height: 60px; 
+    margin-left: 22rem;
+  }
+  .img{
+    width: 60px; 
+    height: 60px; 
+  }
+}
+@media screen and ( min-width: 768px ) {
+  .icon { 
+    width: 60px; 
+    height: 60px; 
+    margin-left: 19rem;
   }
   .img{
     width: 60px; 
