@@ -83,7 +83,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   height: 100px;
   border-radius: 150px;
   background-color: #03a9f4;
-  margin-left: 17rem;
+  margin-left: 28rem;
   margin-top: -1rem;
   position: absolute;
 }
